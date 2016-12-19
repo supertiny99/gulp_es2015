@@ -1,0 +1,20 @@
+# /node_modules and /bower_components ignored by default
+
+# Ignore files compiled from TypeScript and CoffeeScript
+**/*.{ts,coffee}.js
+
+# Ignore built files except dist/index.js
+dist/**/*.js
+!dist/index.js
+**/vendor/*.js
+**/lib/*.js
+
+/build/**
+/coverage/**
+/docs/**
+/jsdoc/**
+/templates/**
+/tests/bench/**
+/tests/fixtures/**
+/tests/performance/**
+/tmp/**
